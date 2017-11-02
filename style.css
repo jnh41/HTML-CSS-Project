@@ -5,8 +5,11 @@ h1, h2, h3, h4{
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
 }
-h1{ font-size: 1.7em; }
-h2{ font-size: 1.5em; }
+h1{ font-size: 2.8em;
+font-weight: bold}
+h2{ font-size: 1.5em;
+font-weight: bold}
+h3{font-weight: bold}}
 a{
 	color: black;
 	text-decoration: none;
@@ -15,11 +18,12 @@ a{
 	a:active{ text-decoration: underline; }
 
 body{
-    font-family: arial; 
-    font-size: 80%; 
-    line-height: 1.2em; 
-    width: 100%; 
-    margin: 0; 
+    font-family: sans-serif;
+    font-size: 80%;
+  
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0;
     background: #eee;
 }
 
@@ -27,14 +31,14 @@ body{
 
 
 #logo{
-	width: 35%;
+	width: 60%;
 	margin-top: 5px;
 	font-family: georgia;
-	display: inline;
+	display: block
 }
 
 #nav{
-	width: 60%;
+	width: 100%;
 	display: inline-block;
 	text-align: right;
 	float: right;
@@ -42,7 +46,8 @@ body{
 	#nav ul{}
 		#nav ul li{
 			display: inline-block;
-			height: 62px;
+			height: 52px;
+
 		}
 			#nav ul li a{
 				padding: 20px;
@@ -71,6 +76,6 @@ body{
 		font-size: 80%;
 		color: grey;
 	}
-	
+
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
