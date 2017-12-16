@@ -6,21 +6,21 @@ body{
     line-height: 2em;
     width: 97%;
 
-    background: url("Images/bck2.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("bck2.jpg") no-repeat center center fixed;
+   	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+	 -o-background-size: cover;
+          background-size: cover;
 }
+
 #logo{
 	width: 100%;
 	margin-top: 5px;
 	font-family: monospace;
-  font-size: 6em;
-  color: white;
+	font-size: 6em;
+ 	color: white;
 	display: inline-block;
-  text-decoration-style: wavy;
-
+ 	text-decoration-style: wavy;
 }
 
 #page{ margin-left: 330px;
@@ -30,7 +30,7 @@ body{
 #nav{
 	width: 107%;
 	display: inline-block;
-  font-family: sans-serif;
+ 	font-family: sans-serif;
 	text-align: center;
 	float: right;
 }
@@ -38,8 +38,6 @@ body{
 		#nav ul li{
 			display: inline-block;
 			height: 52px;
-
-
 		}
 			#nav ul li a{
 				padding: 20px;
@@ -50,16 +48,19 @@ body{
 				background-color: #ffb424;
 				box-shadow: 0px 4px 4px #666;
 			}
-			#nav ul li a:active{ background-color: #ff8f00; }
+			#nav ul li a:active{ background-color: #ff8f00; 
+			}
 
 #content{
 	margin-top: 50px;
 	background: white;
 	padding: 20px;
 	clear: both;
-  font-family: verdana;
-  text-align: center;
+ 	font-family: verdana;
+  	text-align: center;
+	ul li a{ box-shadow: 0px 1px 1px #999; }
 }
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -68,18 +69,19 @@ body{
   	width: 12%;
   	text-align: center;
   	float: center;
-    padding: 20px;
+   	padding: 20px;
   	background: indigo;
   	font: georgia;
-    color: white;
+    	color: white;
   	box-shadow: 0px 2px 2px #666;
 }
-#image-container img {
 
+#image-container img {
   width: 220px;
   height: 160px;
 
 }
+
 #footer{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
@@ -90,6 +92,3 @@ body{
 		font-size: 80%;
 		color: grey;
 	}
-
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
